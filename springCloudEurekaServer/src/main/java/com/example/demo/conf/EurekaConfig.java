@@ -4,7 +4,7 @@ import org.springframework.cloud.netflix.eureka.server.EnableEurekaServer;
 import org.springframework.context.annotation.Configuration;
 
 /**
- * 1.启动eureka 注册中心
+ * 1.启用eureka 注册中心；
  * @author wangxiliang
  *
  */

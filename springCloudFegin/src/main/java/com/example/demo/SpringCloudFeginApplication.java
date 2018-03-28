@@ -13,10 +13,6 @@ import org.springframework.cloud.netflix.hystrix.dashboard.EnableHystrixDashboar
  *
  */
 @SpringBootApplication
-@EnableDiscoveryClient
-@EnableFeignClients
-@EnableHystrix
-@EnableHystrixDashboard
 public class SpringCloudFeginApplication {
 
 	public static void main(String[] args) {

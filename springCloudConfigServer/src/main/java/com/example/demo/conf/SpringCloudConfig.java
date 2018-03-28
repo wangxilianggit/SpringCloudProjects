@@ -1,14 +1,14 @@
 package com.example.demo.conf;
 
-import org.springframework.cloud.netflix.eureka.EnableEurekaClient;
+import org.springframework.cloud.config.server.EnableConfigServer;
 import org.springframework.context.annotation.Configuration;
 /**
- * 1.启用@EnableEurekaClient
+ * 1.开启config server
  * @author wangx
  *
  */
 @Configuration
-@EnableEurekaClient
+@EnableConfigServer
 public class SpringCloudConfig {
 
 }
