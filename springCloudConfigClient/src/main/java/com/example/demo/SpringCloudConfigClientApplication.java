@@ -29,6 +29,6 @@ public class SpringCloudConfigClientApplication {
 	
     @RequestMapping(value = "/hi")
     public String hi(){
-        return "config-client从config-server读取配置文件";
+        return "config-client从config-server读取配置文件："+date+name;
     }
 }
